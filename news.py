@@ -1,7 +1,7 @@
 import win32com.client 
 speaker = win32com.client.Dispatch("SAPI.SpVoice") 
 from newsapi import NewsApiClient
-newsapi = NewsApiClient(api_key='da98e145e4914327a914f88e934054e0')
+newsapi = NewsApiClient(api_key='Your API key')
 
 speaker.Speak("Hello! This is News Assistant.")
 print("Press 0 for sports news.")
