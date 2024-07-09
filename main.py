@@ -81,8 +81,8 @@ if __name__ == "__main__":
             ['instagram', 'https://www.instagram.com']
         ]
         apps = [
-            ['discord', r'C:\Users\rudra\OneDrive\Desktop\Discord.lnk'], 
-            ['epic games', r'C:\Users\Public\Desktop\Epic Games Launcher.lnk']
+            ['discord', r'Location of discord app'], 
+            ['epic games', r'Location of epic games app']
         ]
         
         # Check if user query matches predefined apps or sites to open
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
         # Respond to queries about current time and date
         elif 'the date and time'.lower() in query.lower():
-            path = r'D:\python_codes\today.py'
+            path = r'Path of today.py'
             run_script(path)
 
         # Handle chat with OpenAI (requires API key)
@@ -141,11 +141,11 @@ if __name__ == "__main__":
             talk("Badabadabadabada")
 
         elif 'the weather'.lower() in query.lower():
-            script_path = r"D:\python_codes\Projects\chatbot\weather.py"
+            script_path = r"Location of weather.py"
             run_script(script_path)
 
         elif 'the news'.lower() in query.lower():
-            script_path = r"D:\python_codes\Projects\news.py"
+            script_path = r"Location of news.py"
             run_script(script_path)
 
         # Exit the assistant
