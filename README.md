@@ -28,3 +28,6 @@ Welcome to the Python AI Assistant repository! This project contains scripts tha
     <li><strong>Opening Files and Websites:</strong> Utilize voice commands to open specific files or launch websites.</li>
 </ul>
 
+## Contributions
+Contributions to enhance or add new features to this AI assistant are welcome! Fork this repository, make your changes, and submit a pull request with your improvements.
+
