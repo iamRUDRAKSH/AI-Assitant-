@@ -5,7 +5,7 @@ from main import talk
 if __name__ == "__main__":
 
     city = "pune"
-    url = f"https://api.weatherapi.com/v1/current.json?key=fc481608852a4675b6865641242206&q={city}"
+    url = f"https://api.weatherapi.com/v1/current.json?key=<Your API key>={city}"
 
     r = requests.get(url)
     info = json.loads(r.text)
