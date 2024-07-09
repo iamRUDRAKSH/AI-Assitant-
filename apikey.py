@@ -1,1 +1,1 @@
-key = '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'
+key = '<Get your API key>'
