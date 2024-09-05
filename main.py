@@ -111,7 +111,7 @@ def chat():
 
 # Main function for conversational interactions
 if __name__ == "__main__":
-    talk("Hello! I am Aditya.")
+    talk("Hello! I am bot.")
     talk("How may I help you?")
     while True:
         query = listen()  # Listen for user input
@@ -125,8 +125,8 @@ if __name__ == "__main__":
             ['instagram', 'https://www.instagram.com']
         ]
         apps = [
-            ['discord', r'C:\Users\rudra\OneDrive\Desktop\Discord.lnk'], 
-            ['epic games', r'C:\Users\Public\Desktop\Epic Games Launcher.lnk']
+            ['discord', r'Address of app'], 
+            ['epic games', r'Address of app']
         ]
         
         # Check if user query matches predefined apps or sites to open
@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
         # Respond to queries about current time and date
         elif 'the date and time'.lower() in query.lower():
-            path = r'D:\python_codes\Basic python\today.py'
+            path = r'Address of today.py'
             run_script(path)
 
         # Handle chat with OpenAI (requires API key)
@@ -183,11 +183,11 @@ if __name__ == "__main__":
             talk("Badabadabadabada")
 
         elif 'the weather'.lower() in query.lower():
-            script_path = r"D:\python_codes\Projects\chatbot\weather.py"
+            script_path = r"Address of weather.py"
             run_script(script_path)
 
         elif 'the news'.lower() in query.lower():
-            script_path = r"D:\python_codes\Projects\news.py"
+            script_path = r"Address of news.py"
             run_script(script_path)
 
         elif 'play' in query.lower():
